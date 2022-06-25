@@ -16,5 +16,9 @@ o.customer_id
 from `analytics-engineers-club.coffee_shop.orders` o
 left join customer_aggs ca on o.customer_id = ca.customer_id
 left join `analytics-engineers-club.coffee_shop.customers` c on o.customer_id = c.id
+<<<<<<< HEAD
 order by first_order_at
 limit 20
+=======
+order by first_order_at
+>>>>>>> 1c3a0c170a2d732d0745154a29dd154cb3adcc80
